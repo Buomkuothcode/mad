@@ -1,33 +1,24 @@
 {
   "expo": {
-    "name": "Madeya",
-    "slug": "madeya",
+    "name": "Madeya Truck",
+    "slug": "madeya_truck",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "madeya",
+    "scheme": "madeya_station",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true,
-      "bundleIdentifier": "com.buomkuoth13.madeya"
+      "supportsTablet": true
     },
     "android": {
-      "package": "com.buomkuoth13.madeya",
-      "jsEngine": "hermes",
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/icon.png",
-        "backgroundColor": "#E6F4FE"
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/images/icon.png"
       },
-      "permissions": [
-        "ACCESS_FINE_LOCATION",
-        "ACCESS_COARSE_LOCATION",
-        "android.permission.ACCESS_COARSE_LOCATION",
-        "android.permission.ACCESS_FINE_LOCATION"
-      ],
-      "usesCleartextTraffic": true,
       "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.buomkuoth13.madeya_station"
     },
     "web": {
       "output": "static",
@@ -35,7 +26,6 @@
     },
     "plugins": [
       "expo-router",
-      "expo-location",
       [
         "expo-splash-screen",
         {
@@ -56,7 +46,7 @@
     "extra": {
       "router": {},
       "eas": {
-        "projectId": "ee4cc233-bf3c-4f6f-a035-97c594b6de45"
+        "projectId": "91c23163-8095-4726-ae15-1f4625bc2b43"
       }
     },
     "owner": "buomkuoth13"

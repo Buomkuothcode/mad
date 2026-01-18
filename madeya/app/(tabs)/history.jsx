@@ -69,7 +69,7 @@ export default function MyQueueScreen() {
 
       if (error) throw error;
 
-      // Logic to find effective position (cars ahead)
+     
       const updatedQueues = await Promise.all(myQueues.map(async (q) => {
         const { count } = await supabase
           .from('fuel_queue')

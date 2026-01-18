@@ -20,12 +20,11 @@ import { supabase } from '../supa/supabase-client';
 
 const { width, height } = Dimensions.get('window');
 
-// --- PREMIUM LIGHT THEME ---
 const COLORS = {
-  PRIMARY: '#1e4b89',      // Royal Blue
-  SECONDARY: '#DBEAFE',    // Soft Blue
-  SUCCESS: '#1e4b89',      // Green
-  DANGER: '#EF4444',       // Red
+  PRIMARY: '#1e4b89',     
+  SECONDARY: '#DBEAFE',    
+  SUCCESS: '#1e4b89',   
+  DANGER: '#EF4444',       
   WHITE: '#FFFFFF',
   BG_LIGHT: '#F8FAFC',
   TEXT_MAIN: '#0F172A',
